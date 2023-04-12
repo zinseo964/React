@@ -3,6 +3,7 @@
     background-color: white;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .navbar_logo {
@@ -22,19 +23,21 @@
 
 .nameinphoto {
     position : absolute;
-    padding-top: 200px;
+    padding-top: 250px;
     width : 30%;
-    padding-left: 30px;
+    padding-left: 70px;
+    opacity: 0.5;
 }
 
 .textinphoto {
     position : absolute;
     width : 50%;
-    top : 200px;
-    left : 500px;
+    top : 300px;
+    left : 700px;
 }
 
 .mainClassPhoto {
+    position :static;
     padding-top: 10%;
     width : 95%;
 }
