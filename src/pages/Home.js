@@ -16,10 +16,10 @@ function Home(){
                     <img className="Ryul" alt="ryul" src="img/ryul_proto.png" />             
                 </Link>
                 <Link to="/lee">
-                    <img className="Lee" alt="class_lee" src="img/lee_proto.png" />             
+                    <img className="Lee" alt="lee" src="img/lee_proto.png" />             
                 </Link>
                 <Link to="/hang">
-                    <img className="Hang" alt="class_hang" src="img/hang_proto.png" />         
+                    <img className="Hang" alt="hang" src="img/hang_proto.png" />         
                 </Link>
             </div>
         </div>

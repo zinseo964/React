@@ -9,7 +9,7 @@ const RyulTheme1 = () => {
         <>
             <div className={styles.header}>
                 <Link to="/">
-                    <img className={styles.navbar_logo} alt="navbar_logo" src="/img/logo_upper.png" />      
+                    <img className={styles.navbar_logo} alt="navbar_logo" src="/img/headerimg.png" />      
                 </Link>
                 <Link to="/ryul">
                     <img className={styles.classname} alt="ryul" src="/img/ryul.png" />

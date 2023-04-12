@@ -1,22 +1,22 @@
 import React from 'react';
 import {Link} from "react-router-dom";
-import Navbar from './NavbarRyul';
+import Navbar from './NavbarHang';
 import styles from './Class.module.css';
 
 
-const RyulTheme2 = () => {
+const RyulTheme1 = () => {
     return(
         <>
             <div className={styles.header}>
                 <Link to="/">
                     <img className={styles.navbar_logo} alt="navbar_logo" src="/img/headerimg.png" />      
                 </Link>
-                <Link to="/ryul">
-                    <img className={styles.classname} alt="ryul" src="/img/ryul.png" />
+                <Link to="/hang">
+                    <img className={styles.classname} alt="hang" src="/img/hang.png" />
                 </Link>
                 <Navbar /> 
             </div>
-            <div className={styles.theme2photo}>
+            <div className={styles.theme3photo}>
                 <img className={styles.classPhoto} alt="class_photo" src="/img/001.jpg" />
                 <img className={styles.classPhoto} alt="class_photo" src="/img/002.jpg" />
                 <img className={styles.classPhoto} alt="class_photo" src="/img/003.jpg" />
@@ -40,4 +40,4 @@ const RyulTheme2 = () => {
     );
 }
 
-export default RyulTheme2;
+export default RyulTheme1;
