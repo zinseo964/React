@@ -4,7 +4,7 @@ import Navbar from './NavbarRyul';
 import styles from './Class.module.css';
 
 
-const RyulTheme1 = () => {
+const RyulTheme2 = () => {
     return(
         <>
             <div className={styles.header}>
@@ -40,4 +40,4 @@ const RyulTheme1 = () => {
     );
 }
 
-export default RyulTheme1;
+export default RyulTheme2;

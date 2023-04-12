@@ -8,38 +8,34 @@
 
 .navbar_logo {
     width: 35%;
-    padding : 15px;
-    margin-top: 15px;
-    padding-top: 2px;
+    padding : 2%;
 }
 
 .classname {
-    width : 5%;
+    width : 7%;
     float: right;
-    margin-top: 15px;
-    padding-top: 7px;
-    padding-right: 7px;
+    padding: 1.5%;
 }
 
 .nameinphoto {
     position : absolute;
-    padding-top: 250px;
-    width : 30%;
-    padding-left: 70px;
+    top : 30%;
+    width : 35%;
+    padding-left: 10%;
     opacity: 0.5;
 }
 
 .textinphoto {
     position : absolute;
+    top : 30%;
     width : 50%;
-    top : 300px;
-    left : 700px;
+    left : 40%;
 }
 
 .mainClassPhoto {
-    position :static;
+    padding: 3%;
     padding-top: 10%;
-    width : 95%;
+    width : 100%;
 }
 
 .classPhoto {
@@ -49,4 +45,8 @@
 
 .theme1photo {
     padding-top: 15%;
+}
+
+.theme2photo {
+    clear: both; 
 }
