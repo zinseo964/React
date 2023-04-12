@@ -24,11 +24,6 @@ const RyulTheme1 = () => {
                 <img className={styles.classPhoto} alt="class_photo" src="/img/005.jpg" />
                 <img className={styles.classPhoto} alt="class_photo" src="/img/006.jpg" />
                 <img className={styles.classPhoto} alt="class_photo" src="/img/007.jpg" />
-                <img className={styles.classPhoto} alt="class_photo" src="/img/008.jpg" />
-                <img className={styles.classPhoto} alt="class_photo" src="/img/009.jpg" />
-                <img className={styles.classPhoto} alt="class_photo" src="/img/010.jpg" />
-                <img className={styles.classPhoto} alt="class_photo" src="/img/011.jpg" />
-                <img className={styles.classPhoto} alt="class_photo" src="/img/012.jpg" />
                 <img className={styles.classPhoto} alt="class_photo" src="/img/013.jpg" />
                 <img className={styles.classPhoto} alt="class_photo" src="/img/014.jpg" />
                 <img className={styles.classPhoto} alt="class_photo" src="/img/015.jpg" />
