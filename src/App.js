@@ -1,26 +1,20 @@
 import React from 'react';
-import {Routes, Route, Link} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Counter from "./pages/Counter";
-import Input from "./pages/Input";
-import Input2 from "./pages/Input2";
-import UserList from './pages/List';
+import Ryul from './pages/Ryul';
+import Lee from './pages/Lee';
+import Hang from './pages/Hang';
+import RyulTheme1 from './pages/Ryultheme1';
 
 function App() {
   return (
     <div className="App">
-      <nav>
-        <Link to="/">Home</Link> | <Link to="/about">About </Link> | <Link to="/counter">Counter </Link> | <Link to="/input">Input </Link> | <Link to="/input2">Input2 </Link> | <Link to="/userlist">UserList </Link>
-
-      </nav>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/about" element={<About/>} />
-        <Route path="/counter" element={<Counter/>} />
-        <Route path="/input" element={<Input/>} />
-        <Route path="/input2" element={<Input2/>} />
-        <Route path="/userlist" element={<UserList/>} />
+        <Route path="/ryul" element={<Ryul/>} />
+        <Route path="/lee" element={<Lee/>} />
+        <Route path="/hang" element={<Hang/>} />
+        <Route path="/ryul/theme1" element={<RyulTheme1/>} />
       </Routes>
     </div>
   );

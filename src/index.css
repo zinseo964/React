@@ -14,5 +14,7 @@ code {
 
 .App {
   text-align: center;
-  padding: 20%;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
 }
