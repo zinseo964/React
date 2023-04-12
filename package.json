@@ -20,7 +20,7 @@
     "eject": "react-scripts eject",
     "deploy" : "gh-pages -d build"
   },
-  "homepage": "http://zinseo964/github.io/visiontrip",
+  "homepage": "http://zinseo964/github.io/React",
   "eslintConfig": {
     "extends": [
       "react-app",
